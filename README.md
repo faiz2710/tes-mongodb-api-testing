@@ -52,3 +52,9 @@ routes/                   # definisi endpoint
 ## Stack
 
 Node.js, Express 5, MongoDB, Mongoose.
+
+## Keamanan
+
+- Kredensial database **tidak** disimpan di repo. Isinya cuma di `.env` lokal (di-ignore git).
+- Pakai `.env.example` sebagai template, jangan commit `.env`.
+- Ganti password user MongoDB Atlas secara berkala.
